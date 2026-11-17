@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env
+
+data/raw/
+*.npy
+
+data/raw/
+data/curated/articles.json
+data/processed/
