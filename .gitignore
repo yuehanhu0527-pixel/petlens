@@ -1,13 +1,25 @@
+
+# Python virtual environments
 .venv/
+venv/
+
+# Python cache
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# macOS
 .DS_Store
+
+# Secrets
 .env
 
+# Raw downloaded articles
 data/raw/
-*.npy
 
-data/raw/
-data/curated/articles.json
-data/processed/
+# Temporary backup files
+*.before_category_fix.json
+
+# Local scratch outputs
+data/evaluation/corpus_coverage_audit.csv
+data/evaluation/passage_selection_comparison.txt
